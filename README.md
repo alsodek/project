@@ -1,4 +1,0 @@
-project
-=======
-
-Web Standards Project
