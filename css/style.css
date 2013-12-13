@@ -7,15 +7,54 @@ Copyright 2013, Josh Cope
    Site Styles
    ========================================================================== */
 
+/*------------------------------------general styles-------------------------------*/
+
+html{
+	/*background-image: url('../images/RB_main_bg.jpg');*/
+}
+
+body{
+	background-image: url('../images/RB_background.jpg');
+}
+
+header img{
+	padding: 10;
+}
+
+h1{
+	font-family: 'Cinzel Decorative', cursive;
+	font-size: 1.5em;
+	color: #ff2a29;
+	background: #282828;
+	overflow: hidden;
+	display: block;
+	float: left;
+	height: 56px;
+	line-height: 56px;
+	margin: 0%;
+	outline: 0;
+	padding: 0 1em 0 1em;
+}
+
+p, label, li{
+	font-family: 'Nixie One', cursive;
+}
+
+p, label{
+	font-size: 1.2em;
+}
+
+h2{
+	font-family: 'IM Fell Great Primer', serif;
+	font-size: 1.7em;
+	color: #ff2a29;
+}
+
 header img{
 	height: 56px;
 	overflow: hidden;
 	display: block;
 	float: left;
-}
-
-nav li{
-	display: inline;
 }
 
 article img{
@@ -29,9 +68,55 @@ footer{
 #gallery ul{
 	list-style-type: none;
 }
+
+
+/*------------------------------------nav elements-------------------------------*/
+
+nav ul{
+	margin: 0% auto;
+	list-style-type: none;
+	padding: 0%;
+	overflow: hidden;
+}
+
+nav li{
+	background: #282828;
+	width: 16.6666667%; 
+	float: left;
+	font-size: .8em;
+}
+
+nav a{
+	text-decoration: none;
+	display: block;
+	height: 56px;
+	line-height: 56px;
+	text-align: center;
+	color: #fff;
+}
+
+nav a:hover{
+	color: #ff2a29;
+	background: #282828;
+	position: relative;
+	bottom: 1px;
+}
+
+nav a:active{
+	color: #fff;
+	background: #ff2a29;
+}
+
+
 /* =============================================================================
    Page Styles
    ========================================================================== */
+
+/*------------------------------------index page-------------------------------*/
+
+.intro{
+	background: #fff;
+}
 
 /* =============================================================================
    Media Queries
