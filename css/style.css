@@ -104,6 +104,31 @@ nav a:active{
 }
 
 
+/*------------------------------------footer elements-------------------------------*/
+
+footer{
+	background: #282828;
+	color: #fff;
+	font-size: .8em;
+}
+
+.footer_1{
+	text-align: left;
+	float: left;
+	padding-left: 1em;
+}
+
+.footer_2{
+	text-align: right;
+	float: right;
+	padding-right: 1em;
+}
+
+.footer_3{
+	clear: left;
+	padding-left: 1em;
+}
+
 /* =============================================================================
    Page Styles
    ========================================================================== */
@@ -111,29 +136,38 @@ nav a:active{
 /*------------------------------------index page-------------------------------*/
 
 .intro{
-	background: #fff;
-}
-
-.intro img{
-	width: 55%;
-	/*border: 5px solid #ff2a29;*/
-	margin-top: 2%;
-	margin-left: 2%;
 }
 
 .intro h2{
 	width: 100%;
-	margin: 1% 0% 0% -2%;
 	text-align: center;
+}
+
+.intro img{
+	margin: 2.5% 0 1% 1%;
 }
 
 .intro p{
 	text-indent: 50px;
-	margin-left: 3.4%;
+	text-align: justify;
+	margin: 0 0 2% 5%;
+}
+
+.beauty{
+}
+
+.beauty h2{
+	width: 100%;
+	text-align: center;
+}
+
+.beauty p{
+	text-indent: 50px;
+	padding: 0 1em;
 	text-align: justify;
 }
 
-/*------------------------------------button element-------------------------------*/
+/*------------------------------------button element-------------------------------
 
 .button {
 	display: inline-block;
@@ -181,7 +215,7 @@ nav a:active{
 	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#d0000d', endColorstr='#cd3b45');
 }
 
-
+*/
 
 
 /* =============================================================================
