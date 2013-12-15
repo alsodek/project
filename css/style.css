@@ -61,10 +61,6 @@ footer{
 	clear: both;
 }
 
-#gallery ul{
-	list-style-type: none;
-}
-
 
 /*------------------------------------nav elements-------------------------------*/
 
@@ -196,6 +192,72 @@ footer{
 
 .offer p{
 	text-indent: 50px;
+}
+
+/*------------------------------------Gallery page-------------------------------*/
+
+.gallery h2{
+	width: 100%;
+	text-align: center;
+}
+
+.gallery ul{
+	list-style-type: none;
+}
+
+.gallery li{
+	float: left;
+	margin: 1%;
+	border: solid 3px #ff2a29;
+}
+
+.facts{
+	width: 100%;
+	text-align: center;
+}
+
+
+/*------------------------------------Members page-------------------------------*/
+
+.member{
+	
+}
+
+.member h2{
+	width: 100%;
+	text-align: center;
+}
+
+label {
+    display: inline-block;
+    width: 40%;
+}
+
+form button{
+	width: 30%;
+	height: 40px;
+	margin: 2% 0 2% 35%;
+	font-size: 1em;
+	color: #fff;
+	background: #ff2a29;
+	border: 2px solid #d0000d;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.vegie{
+	margin-top: 5%;
+}
+
+/*------------------------------------Contact page-------------------------------*/
+
+.contact{
+	width: 100%;
+	text-align: center;
+}
+
+.call{
+	text-align: center;
 }
 
 /* =============================================================================
